@@ -1,0 +1,28 @@
+unity rpg notes
+
+sprite editor --> slice by img
+
+use window --> animation to create sprite enimations
+	--> animator to link different animation states
+	--> activate through script (PlayerController.cs)
+
+use blend tree for complicated idle and movement animation relationships
+
+track motion with CameraController.cs
+
+used tiled and tiled to unity to make maps; use collider window to draw collision areas on  the  map
+
+
+adding levels/ scenes must go to build settings and click add current
+
+
+
+private static DATATYPE VARIABLENAME <-- all objects with the variable name follow  the same set e.g. if there is an else  statement with Destroy, excess duplicates will be destroyed
+
+
+---------------------------------
+Unity data types:
+
+Rigidbody2D
+Vector2
+Vector3
